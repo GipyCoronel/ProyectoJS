@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header, .alert{
+    z-index: 100;
+  }
+.clas {
+    text-align: center;
+}
+
+
+.sec {
+    text-align: center;
+}  
+
+.pic {
+    width: 200px;
+    padding: 10px; 
+    float: right;
+    margin-bottom: 2rem;
+
+}
+
+#navbarNav {
+    background-color: rgb(243, 200, 239);
+}
+.le {
+    color:rgb(236, 125, 225);
+}
+
+
+.item-button {
+    background-color: rgb(221, 172, 216);
+}
+.coul {
+    background-color: rgb(221, 172, 216);
+    color: white;
+}
+
+
+.tam {
+    height: 35px;
+    width: 35px;
+}
+
+.tamm {
+    height: 43px;
+    width: 43px;
+}
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hide, .remove{
+    display: none;
+  }
+  footer {
+    background-color: rgb(221, 172, 216);
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+}
